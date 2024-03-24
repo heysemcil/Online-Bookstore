@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+header {
+  width: 100%;
+  background-image: url(../media/navbar.jpg);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.filter {
+  background-color: #fff;
+  text-align: center;
+  padding: 24px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.genreFilter {
+  width: 100%;
+  padding: 6px;
+  font-size: 16px;
+}
+.books {
+  display: block;
+}
+.book {
+  width: 45%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px ;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+}
+
+.imgBook {
+  text-align: center;
+  width: 100%;
+}
+
+.infoBook {
+  height: 156px;
+}
+
+.infoBook h3 {
+  margin: 10px;
+  text-align: left;
+  font-size: 24px;
+}
+
+.infoBook p {
+  margin: 5px;
+}
+
+.btn {
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(236, 138, 81);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+footer{
+  background-color: #333333;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 20px 0px;
+}
